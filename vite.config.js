@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base:
     process.env.NODE_ENV === "production"
-      ? "https://vitereacttest2.netlify.app/"
+      ? "https://vitereacttest.netlify.app/"
       : "/",
 });
